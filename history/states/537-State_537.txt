@@ -1,0 +1,14 @@
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		1943 2443 4088 4348 6279 16420 16432 16433 16441 16444 16449 16455 16461 16479 16490 
+	}
+	manpower = 1000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = BLM
+		add_core_of = BLM
+	}
+}

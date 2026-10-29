@@ -1,0 +1,24 @@
+add_namespace = noobic_stratocracy
+
+country_event = {
+    id = noobic_stratocracy.1
+    hidden = yes
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned_state = {
+            set_state_owner_to = NSC
+            add_core_of = NSC
+            remove_core_of = ROOT
+            remove_claim_by = NSC
+            remove_claim_by = ROOT
+        }
+
+        if = {
+            limit = {
+                any_owned_state = { always = yes }
+            }
+            country_event = { id = noobic_stratocracy.1 hours = 6 }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+continents = {
+	custom_continent
+}

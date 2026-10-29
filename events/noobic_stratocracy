@@ -1,0 +1,29 @@
+add_namespace = noobic_stratocracy
+
+country_event = {
+    id = noobic_stratocracy.1    
+    hidden = yes
+    is_triggered_only = yes
+
+    immediate = {
+        repeat_effect = {
+            amount = 10
+            random_state = {
+                limit = {
+                    NOT = { is_owned_by = ROOT }
+                }
+                set_state_owner_to = ROOT
+                set_state_controller_to = ROOT
+            }
+        }
+
+        if = {
+            limit = {
+                any_state = {
+                    NOT = { is_owned_by = ROOT }
+                }
+            }
+            country_event = { id = noobic_choice.10 days = 3 }
+        }
+    }
+}

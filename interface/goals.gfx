@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1949_decade"
+		texturefile = "gfx/interface/goals/1949_decade.dds"
+	}
+	spriteType = {
+		name = "GFX_unknown_focus"
+		texturefile = "gfx/interface/goals/unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.dds"
+	}
+}

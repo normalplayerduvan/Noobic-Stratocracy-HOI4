@@ -1,0 +1,12 @@
+add_namespace = superevent
+
+country_event = {
+	id = superevent.1
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		set_country_flag = noobic_reunification_war_fired
+		set_variable = { nstno_super_event_active = 1 } # This safely signals the .gui listener to open
+	}
+}

@@ -1,0 +1,1 @@
+# Sample common/military_industrial_organization configuration

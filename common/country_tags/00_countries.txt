@@ -1,0 +1,5 @@
+# Country tags
+BLM = "countries/Bloxian Mandate of Noobia.txt"
+NSC = "countries/Noobic Republic.txt"
+WNM = "countries/West Noobia.txt"
+DOE = "countries/Department of Energy.txt"

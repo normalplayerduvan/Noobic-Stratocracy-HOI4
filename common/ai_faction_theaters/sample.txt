@@ -1,0 +1,1 @@
+# Sample common/ai_faction_theaters configuration

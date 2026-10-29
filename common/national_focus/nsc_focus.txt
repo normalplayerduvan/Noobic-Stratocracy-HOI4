@@ -1,0 +1,102 @@
+focus_tree = {
+    id = NSC_focus
+    country = { factor = 0 modifier = { add = 10 tag = NSC } }
+    default = no
+    continuous_focus_position = { x = 50 y = 1000 }
+    focus = {
+        id = NSC_start
+        icon = GFX_goal_unknown
+        x = 10
+        y = 1
+        cost = 10
+        completion_reward = { log = "[GetDateText]: [Root.GetName]: Focus NSC_start completed" }
+    }
+    focus = {
+        id = NSC_focus
+        icon = GFX_goal_unknown
+        x = 10
+        y = 2
+        cost = 10
+        prerequisite = { focus = NSC_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus completed"
+        }
+    }
+
+    focus = {
+        id = NSC_focus_1
+        icon = GFX_goal_unknown
+        x = 7
+        y = 3
+        cost = 10
+        prerequisite = { focus = NSC_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_1 completed"
+        }
+    }
+
+    focus = {
+        id = NSC_focus_2
+        icon = GFX_goal_unknown
+        x = 10
+        y = 3
+        cost = 10
+        prerequisite = { focus = NSC_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_2 completed"
+        }
+    }
+
+    focus = {
+        id = NSC_focus_3
+        icon = GFX_goal_unknown
+        x = 13
+        y = 3
+        cost = 10
+        prerequisite = { focus = NSC_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_3 completed"
+        }
+    }
+
+    focus = {
+        id = NSC_focus_4
+        icon = GFX_goal_unknown
+        x = 7
+        y = 4
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_4 completed"
+        }
+    }
+
+    focus = {
+        id = NSC_focus_5
+        icon = GFX_goal_unknown
+        x = 12
+        y = 1
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_5 completed"
+        }
+    }
+
+}

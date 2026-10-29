@@ -1,0 +1,30 @@
+ideologies = {
+    authortarianism_idg = {
+        types = {
+            authortarianism_1 = {
+            }
+        }
+        color = { 110 110 110 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+    }
+    democratic_federal_idg = {
+        types = {
+            democratic_federal_1 = {
+            }
+        }
+        color = { 50 110 200 }
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = no
+            can_declare_war_without_wargoal_when_highest_threat = no
+        }
+    }
+}

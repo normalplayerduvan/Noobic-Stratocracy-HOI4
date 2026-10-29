@@ -1,0 +1,1 @@
+# Sample common/unit_medals configuration

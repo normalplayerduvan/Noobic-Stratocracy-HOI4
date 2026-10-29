@@ -1,0 +1,52 @@
+ideas = {
+    country = {
+        noobic_resistance = {
+            picture = BLM_noobic_resistance_idea
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.05
+            }
+        }
+        disorganised_military = {
+            picture = BLM_disorganised_military_idea
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.05
+            }
+        }
+        decade_war_fears = {
+            picture = BLM_decade_war_fears
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.05
+            }
+        }
+        underground_resistance = {
+            picture = BLM_underground_resistance_idea
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.05
+            }
+        }
+    }
+}

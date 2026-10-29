@@ -1,0 +1,82 @@
+focus_tree = {
+    id = BLM_focus
+    country = { factor = 0 modifier = { add = 10 tag = BLM } }
+    default = no
+    continuous_focus_position = { x = 50 y = 1000 }
+
+    focus = {
+        id = BLM_start
+        icon = GFX_1949_decade
+        x = 10
+        y = 1
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus BLM_start completed"
+        }
+    }
+
+    focus = {
+        id = BLM_focus
+        icon = GFX_goal_unknown
+        x = 10
+        y = 2
+        cost = 10
+        prerequisite = { focus = BLM_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus BLM_focus completed"
+            country_event = { id = noobic_choice.2 }
+        }
+    }
+
+    focus = {
+        id = BLM_fight_1
+        icon = GFX_goal_unknown
+        x = 8
+        y = 3
+        cost = 10
+        prerequisite = { focus = BLM_focus }
+        mutually_exclusive = { focus = BLM_peace_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus BLM_fight_1 completed"
+        }
+    }
+
+focus = {
+    id = BLM_peace_1
+    icon = GFX_goal_unknown
+    x = 12
+    y = 3
+    cost = 10
+    prerequisite = { focus = BLM_focus }
+    mutually_exclusive = { focus = BLM_fight_1 }
+    ai_will_do = {
+        factor = 0
+    }
+    completion_reward = {
+        country_event = { id = noobic_stratocracy.1 }
+    }
+}
+
+    focus = {
+        id = BLM_focus_3
+        icon = GFX_goal_unknown
+        x = 12
+        y = 4
+        cost = 10
+        prerequisite = { focus = BLM_peace_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+        }
+    }
+}

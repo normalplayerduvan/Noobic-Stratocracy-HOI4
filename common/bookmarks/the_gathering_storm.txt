@@ -1,0 +1,24 @@
+bookmarks = {
+	bookmark = {
+		name = "REUNIFICATION_WAR_NAME"
+		desc = "REUNIFICATION_WAR_DESC"
+		date = 1961.3.14.12
+		picture = "GFX_1949_bookmark"
+		default_country = "BLM"
+		default = yes
+		
+		"BLM"={
+			history = "BLM_DESC"
+		}
+		"NSC"={
+			history = "NSC_DESC"
+			ideas = {
+			NSC_economy_idea
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
+}

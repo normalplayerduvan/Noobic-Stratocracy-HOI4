@@ -1,0 +1,84 @@
+focus_tree = {
+    id = DOE_focus
+    country = { factor = 0 modifier = { add = 10 tag = DOE } }
+    default = no
+    continuous_focus_position = { x = 50 y = 1000 }
+    focus = {
+        id = DOE_start
+        icon = GFX_goal_unknown
+        x = 11
+        y = 0
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus DOE_start completed"
+        }
+    }
+
+    focus = {
+        id = DOE_focus
+        icon = GFX_goal_unknown
+        x = 9
+        y = 2
+        cost = 10
+        prerequisite = { focus = DOE_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus DOE_focus completed"
+            add_ideas = DOE_noobic_reactor
+        }
+    }
+
+    focus = {
+        id = DOE_focus_1
+        icon = GFX_goal_unknown
+        x = 11
+        y = 1
+        cost = 10
+        prerequisite = { focus = DOE_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus DOE_focus_1 completed"
+            type = coal         # Resource type (oil, steel, aluminium, rubber, tungsten, chromium)
+            amount = 80         # Numerical amount to add
+            state = 558
+        }
+    }
+
+    focus = {
+        id = DOE_focus_2
+        icon = GFX_goal_unknown
+        x = 11
+        y = 2
+        cost = 10
+        prerequisite = { focus = DOE_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus DOE_focus_2 completed"
+        }
+    }
+
+    focus = {
+        id = DOE_focus_3
+        icon = GFX_goal_unknown
+        x = 13
+        y = 2
+        cost = 10
+        prerequisite = { focus = DOE_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus DOE_focus_3 completed"
+        }
+    }
+
+}

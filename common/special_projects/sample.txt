@@ -1,0 +1,1 @@
+# Sample common/special_projects configuration

@@ -1,0 +1,20 @@
+NSC = {
+    color = rgb { 67 203 52 }
+    color_ui = rgb { 67 203 52 }
+}
+
+BLM = {
+    color = rgb { 50 100 168 }
+    color_ui = rgb { 50 100 168 }
+}
+
+
+WNM = {
+    color = rgb { 48 48 48 }
+    color_ui = rgb { 48 48 48 }
+}
+
+DOE = {
+    color = rgb { 203 130 52 }
+    color_ui = rgb { 203 130 52 }
+}

@@ -1,0 +1,15 @@
+ideas = {
+    country = {
+        noobian_economy = {
+            picture = NSC_economy_idea
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                consumer_goods_factor = 0.15
+            }
+        }
+    }
+}

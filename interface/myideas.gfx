@@ -1,0 +1,26 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_idea_BLM_noobic_resistance_idea"
+        texturefile = "gfx/interface/ideas/GFX_idea_BLM_noobic_resistance.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_BLM_disorganised_military_idea"
+        texturefile = "gfx/interface/ideas/GFX_idea_BLM_weak_military.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_BLM_decade_war_fears"
+        texturefile = "gfx/interface/ideas/GFX_idea_BLM_fears_of_the_decade_war.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_BLM_underground_resistance_idea"
+        texturefile = "gfx/interface/ideas/GFX_idea_BLM_underground_resistance.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_NSC_economy_idea"
+        texturefile = "gfx/interface/ideas/GFX_idea_NSC_economy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_DOE_advanced_reactor"
+        texturefile = "gfx/interface/ideas/GFX_idea_DOE_advanced_reactor.dds"
+    }
+}   

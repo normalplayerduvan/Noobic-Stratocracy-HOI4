@@ -1,0 +1,16 @@
+ideas = {
+    country = {
+        DOE_noobic_reactor = {
+            picture = DOE_advanced_reactor
+
+            allowed = {
+                always = yes
+            }
+            
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.05
+            }
+        }
+    }
+}
