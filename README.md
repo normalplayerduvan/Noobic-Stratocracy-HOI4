@@ -35,6 +35,8 @@ supported_version="1.19.4.1"
 path="/home/archiea/.local/share/Paradox Interactive/Hearts of Iron IV/mod/NSTNO"
 remote_file_id="3829676912"
 
+(NSTNO.mod might look junky will add it to the github repo soon)
+
 once you put that into NSTNO.mod just boot up HOI4 and you should be able to find it
 
 if you cant its best looking it up on the internet as im not a genius lolz
