@@ -1,5 +1,5 @@
 # Noobic-Stratocracy-HOI4
-NSTNO mod made by @eunewsaccount
+NSTNO mod made by @eunewsaccount (THIS IS FAR FROM FINISHED)
 
 To setup hoi4 mod while i cannot upload it to steam workshop
 
