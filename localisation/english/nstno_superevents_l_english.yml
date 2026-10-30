@@ -1,4 +1,13 @@
 ﻿l_english:
- NSTNO_SUPER_EVENT_TITLE: "§rThe Noobic Reunification War§!"
- NSTNO_SUPER_EVENT_QUOTE: "§I\"The drums of war echo across the shattered lands. The division ends today.\"§!"
- NSTNO_SUPER_EVENT_CLOSE: "God help us all."
+ NSTNO_SUPER_EVENT_TITLE:0 "[GetNSTNOSuperTitle]"
+ NSTNO_SUPER_EVENT_SUBTITLE:0 "[GetNSTNOSuperSubtitle]"
+ NSTNO_SUPER_EVENT_QUOTE:0 "[GetNSTNOSuperQuote]"
+ NSTNO_SUPER_EVENT_CLOSE:0 "Close"
+
+ NSTNO_SE_1_TITLE:0 "The Noobic Reunification War"
+ NSTNO_SE_1_SUB:0 "a"
+ NSTNO_SE_1_QUOTE:0 "\"The drums of war echo across the shattered lands. The division ends todaya.\""
+
+ NSTNO_SE_2_TITLE:0 ""
+ NSTNO_SE_2_SUB:0 ""
+ NSTNO_SE_2_QUOTE:0 ""

@@ -6,15 +6,15 @@ country_event = {
     desc = noobic_choice.2.d
     picture = GFX_blm_island_fate
 
-    is_triggered_only = yes 
+    is_triggered_only = yes
 
     option = {
         name = noobic_choice.2.a
-        set_country_flag    = trigger_NSTNO_event_flag # Sets the visibility flag for the GUI
+        show_nstno_super_event = { ID = 1 }
     }
 
     option = {
         name = noobic_choice.2.b
-        set_country_flag = trigger_NSTNO_event_flag
+        show_nstno_super_event = { ID = 2 }
     }
 }
