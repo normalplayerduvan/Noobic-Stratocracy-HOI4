@@ -1,4 +1,4 @@
 ﻿l_english:
- superevent.1.t:0 "The Noobic Reunification War"
- superevent.1.d:0 "The drums of war echo across the shattered lands. The division ends today."
- noobic_reunification_war_button:0 "God help us all."
+ NSTNO_SUPER_EVENT_TITLE: "§rThe Noobic Reunification War§!"
+ NSTNO_SUPER_EVENT_QUOTE: "§I\"The drums of war echo across the shattered lands. The division ends today.\"§!"
+ NSTNO_SUPER_EVENT_CLOSE: "God help us all."

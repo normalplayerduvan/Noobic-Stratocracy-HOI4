@@ -1,24 +1,20 @@
-add_namespace = noobic_stratocracy
+add_namespace = noobic_choice
 
 country_event = {
-    id = noobic_stratocracy.1
-    hidden = yes
-    is_triggered_only = yes
+    id = noobic_choice.2
+    title = noobic_choice.2.t
+    desc = noobic_choice.2.d
+    picture = GFX_blm_island_fate
 
-    immediate = {
-        random_owned_state = {
-            set_state_owner_to = NSC
-            add_core_of = NSC
-            remove_core_of = ROOT
-            remove_claim_by = NSC
-            remove_claim_by = ROOT
-        }
+    is_triggered_only = yes 
 
-        if = {
-            limit = {
-                any_owned_state = { always = yes }
-            }
-            country_event = { id = noobic_stratocracy.1 hours = 6 }
-        }
+    option = {
+        name = noobic_choice.2.a
+        set_country_flag    = trigger_NSTNO_event_flag # Sets the visibility flag for the GUI
+    }
+
+    option = {
+        name = noobic_choice.2.b
+        set_country_flag = trigger_NSTNO_event_flag
     }
 }
