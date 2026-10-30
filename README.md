@@ -40,6 +40,3 @@ remote_file_id="3829676912"
 once you put that into NSTNO.mod just boot up HOI4 and you should be able to find it
 
 if you cant its best looking it up on the internet as im not a genius lolz
-
-
-PS there are time AI will be used to help but 99% of the work has been done by me
