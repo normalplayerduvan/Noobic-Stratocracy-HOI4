@@ -1,5 +1,5 @@
 state={
-	id=40
+	id=36
 	name="Naramo City"
 	provinces={
 		2670 8538 511 8645 8654 582
@@ -13,6 +13,7 @@ state={
 		1950.1.1 = { 
 		owner = DOE
 		add_core_of = DOE
+		victory_points = { 2670 15 }
 	}
 }
 }
