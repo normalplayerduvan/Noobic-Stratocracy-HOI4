@@ -1,6 +1,6 @@
 state={
 	id=1
-	name="STATE_1"
+	name="Northeast Atria"
 	manpower = 1000
 	state_category = rural
 	buildings_max_level_factor=1.000
@@ -8,6 +8,10 @@ state={
 	history = {
 		owner = BLM
 		add_core_of = BLM
+		1950.1.1 = {
+        owner = NSC
+        add_core_of = NSC
+		}
 	}
 	
 	provinces={
