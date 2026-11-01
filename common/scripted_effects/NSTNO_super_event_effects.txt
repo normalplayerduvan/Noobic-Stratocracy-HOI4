@@ -1,5 +1,3 @@
 show_nstno_super_event = {
-    set_country_flag = trigger_NSTNO_event_flag
-    set_variable = { NSTNO_se_id = $ID$ }
     set_country_flag = NSTNO_super_event_$ID$_flag
 }

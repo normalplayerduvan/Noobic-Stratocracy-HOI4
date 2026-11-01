@@ -1,4 +1,14 @@
 spriteTypes = {
+    spriteType = {
+        name = "GFX_NSTNO_super_event_bg_1"
+        texturefile = "gfx/event_pictures/noobicreunificationwar.dds"
+    }
+
+    spriteType = {
+        name = "GFX_NSTNO_super_event_bg_2"
+        texturefile = "gfx/event_pictures/noobicreunificationwar.dds"
+    }
+
     corneredTileSpriteType = {
         name = "GFX_NSTNO_panel_tint"
         texturefile = "gfx/interface/NSTNO/panel_tint.dds"
@@ -8,7 +18,7 @@ spriteTypes = {
 
     corneredTileSpriteType = {
         name = "GFX_NSTNO_panel_accent"
-        texturefile = "gfx/interface/event_pictures/decals/panel_accent.dds"
+        texturefile = "gfx/interface/NSTNO/panel_accent.dds"
         size = { x = 4 y = 4 }
         borderSize = { x = 0 y = 0 }
     }

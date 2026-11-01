@@ -10,9 +10,13 @@ state={
     history = {
         owner = BLM
         add_core_of = BLM
-        1950.1.1 = {
+        1949.1.1 = {
+        owner = NRB
+        add_core_of = NRB
+        1951.1.1 = {
         owner = NSC
         add_core_of = NSC
+        }
         }
     }
 }

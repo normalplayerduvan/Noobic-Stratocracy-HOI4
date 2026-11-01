@@ -3,3 +3,8 @@
  noobic_choice.2.d: "---  We have to make a decision whether it is still worth the problems to continue our occupation of the noobic people and their continent ---"
  noobic_choice.2.a: "§RContinue Occupation (War) (warning lag)"
  noobic_choice.2.b: "§7Surrender the islands (Peace)"
+ noobic_republic.1.t: "Fate of the Republic"
+ noobic_republic.1.d: "You may now decide how the Noobic Republic will proceed, choosing the military stratocracy will switch you over to the Noobic stratocracy. Choosing Democratic Reform will continue the Noobic republic but the military will coup you if you cannot keep them happy."
+ noobic_republic.1.a: "§RMilitary Stratocracy (CANON)"
+ noobic_republic.1.b: "§7Democratic Reform (WIP)"
+ 

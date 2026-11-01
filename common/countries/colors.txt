@@ -18,3 +18,8 @@ DOE = {
     color = rgb { 203 130 52 }
     color_ui = rgb { 203 130 52 }
 }
+
+NRB = {
+    color = rgb { 222 212 79 }
+    color_ui = rgb { 222 212 79 }
+}

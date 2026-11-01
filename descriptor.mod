@@ -1,4 +1,4 @@
-picture={
+icture={
 	"thumbnail.png"
 }
 version="0.2"

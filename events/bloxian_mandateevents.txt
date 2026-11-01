@@ -10,11 +10,11 @@ country_event = {
 
     option = {
         name = noobic_choice.2.a
-        show_nstno_super_event = { ID = 1 }
+        set_country_flag = NSTNO_super_event_1_flag
     }
 
     option = {
         name = noobic_choice.2.b
-        show_nstno_super_event = { ID = 2 }
+        set_country_flag = NSTNO_super_event_2_flag
     }
 }

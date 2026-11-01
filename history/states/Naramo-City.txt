@@ -7,12 +7,16 @@ state={
 	manpower = 51625
 	state_category = large_city 
 	buildings_max_level_factor=1.000
-	history = {
-		owner = BLM
-		add_core_of = BLM	
-		1950.1.1 = { 
-		owner = DOE
-		add_core_of = DOE
+    history = {
+        owner = BLM
+        add_core_of = BLM
+        1949.1.1 = {
+        owner = NRB
+        add_core_of = NRB
+        1951.1.1 = {
+        owner = NSC
+        add_core_of = NSC
+		}
 		victory_points = { 2670 15 }
 	}
 }
