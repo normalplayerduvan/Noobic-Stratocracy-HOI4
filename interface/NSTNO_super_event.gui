@@ -1,0 +1,147 @@
+guiTypes = {
+    containerWindowType = {
+        name = "NSTNO_super_event_window"
+        position = { x = 0 y = 0 }
+        size = { width = 650 height = 594 }
+        orientation = CENTER
+        origo = CENTER
+        moveable = no
+        click_to_front = yes
+        fade_time = 600
+        fade_type = linear
+
+        # Window frame
+        background = {
+            name = "Background"
+            quadTextureSprite = "GFX_tiled_window"
+        }
+
+        # Cold-war colour wash over the frame (drawn before the art)
+        containerWindowType = {
+            name = "Tint"
+            position = { x = 0 y = 0 }
+            size = { width = 650 height = 594 }
+            alwaystransparent = yes
+            background = {
+                name = "Tint_bg"
+                quadTextureSprite = "GFX_NSTNO_panel_tint"
+            }
+        }
+
+        # ---------- EVENT 1 ----------
+
+        # Art: y 25 -> 449 (590x424)
+        iconType = {
+            name = "Image_1"
+            spriteType = "GFX_NSTNO_super_event_bg_1"
+            position = { x = 30 y = 25 }
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Title_1"
+            position = { x = 20 y = 40 }
+            font = "hoi_36header"
+            text = "NSTNO_SE_1_TITLE"
+            maxWidth = 610
+            maxHeight = 44
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Sub_1"
+            position = { x = 45 y = 460 }
+            font = "hoi_18mbs"
+            text = "NSTNO_SE_1_SUB"
+            maxWidth = 560
+            maxHeight = 22
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Quote_1"
+            position = { x = 45 y = 486 }
+            font = "hoi_24header"
+            text = "NSTNO_SE_1_QUOTE"
+            maxWidth = 560
+            maxHeight = 50
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        # ---------- EVENT 2 ----------
+
+        iconType = {
+            name = "Image_2"
+            spriteType = "GFX_NSTNO_super_event_bg_2"
+            position = { x = 30 y = 25 }
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Title_2"
+            position = { x = 20 y = 40 }
+            font = "hoi_36header"
+            text = "NSTNO_SE_2_TITLE"
+            maxWidth = 610
+            maxHeight = 44
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Sub_2"
+            position = { x = 45 y = 460 }
+            font = "hoi_18mbs"
+            text = "NSTNO_SE_2_SUB"
+            maxWidth = 560
+            maxHeight = 22
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        instantTextBoxType = {
+            name = "Quote_2"
+            position = { x = 45 y = 486 }
+            font = "hoi_24header"
+            text = "NSTNO_SE_2_QUOTE"
+            maxWidth = 560
+            maxHeight = 50
+            format = center
+            fixedsize = yes
+            alwaystransparent = yes
+        }
+
+        # ---------- SHARED ----------
+
+        # Red divider under the art: y 451 -> 453
+        containerWindowType = {
+            name = "Accent_Line"
+            position = { x = 30 y = 451 }
+            size = { width = 590 height = 2 }
+            alwaystransparent = yes
+            background = {
+                name = "Accent_bg"
+                quadTextureSprite = "GFX_NSTNO_panel_accent"
+            }
+        }
+
+        # Close button: y 544 -> 578, centered: (650 - 148) / 2 = 251
+        buttonType = {
+            name = "Close_Button"
+            position = { x = 251 y = 544 }
+            spriteType = "GFX_button_148x34"
+            buttonText = "NSTNO_SUPER_EVENT_CLOSE"
+            buttonFont = "hoi_18mbs"
+            clicksound = click_close
+            shortcut = "ESCAPE"
+        }
+    }
+}

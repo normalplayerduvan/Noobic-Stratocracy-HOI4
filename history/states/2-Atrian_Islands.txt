@@ -1,0 +1,18 @@
+state={
+	id=2
+	name="Atrian Islands"
+	provinces={
+		4545 4651 5010 7754 8181 8182 8203 8212 8265 8270 8282 8289 8290 8292 219 280 350 2261 3494 3845 3897 4916 5063 5798 8183 8187 8200 8204 8213 8218 8229 8252 8253 8263 8294 2357 5593 6808 7021 7037 8201 8205 8206
+	}
+	manpower = 1000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = BLM
+		add_core_of = BLM
+		1950.1.1 = {
+        owner = NSC
+        add_core_of = NSC
+		}
+	}
+}

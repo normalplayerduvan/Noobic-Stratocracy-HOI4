@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_blm_island_fate"
+        texturefile = "gfx/event_pictures/island_fate.dds"
+    }
+    spriteType = {
+        name = "GFX_NSTNO_super_event_bg_1"
+        texturefile = "gfx/event_pictures/noobicreunificationwar.dds"
+    }
+    priteType = {
+        name = "GFX_NSTNO_super_event_bg_2"
+        texturefile = "gfx/event_pictures/noobicreunificationwar.dds"
+    }
+}

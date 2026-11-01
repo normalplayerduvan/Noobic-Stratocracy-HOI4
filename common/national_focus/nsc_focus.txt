@@ -27,7 +27,7 @@ focus_tree = {
     }
 
     focus = {
-        id = NSC_focus_1
+        id = NSC_economy_1
         icon = GFX_goal_unknown
         x = 7
         y = 3
@@ -86,7 +86,7 @@ focus_tree = {
     }
 
     focus = {
-        id = NSC_focus_5
+        id = NSC_doe_1
         icon = GFX_goal_unknown
         x = 12
         y = 1

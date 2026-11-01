@@ -1,0 +1,15 @@
+spriteTypes = {
+    corneredTileSpriteType = {
+        name = "GFX_NSTNO_panel_tint"
+        texturefile = "gfx/interface/NSTNO/panel_tint.dds"
+        size = { x = 4 y = 4 }
+        borderSize = { x = 0 y = 0 }
+    }
+
+    corneredTileSpriteType = {
+        name = "GFX_NSTNO_panel_accent"
+        texturefile = "gfx/interface/event_pictures/decals/panel_accent.dds"
+        size = { x = 4 y = 4 }
+        borderSize = { x = 0 y = 0 }
+    }
+}
