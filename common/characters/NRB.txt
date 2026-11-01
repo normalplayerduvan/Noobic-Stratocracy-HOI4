@@ -1,0 +1,18 @@
+characters = {
+
+	harvey_bright = {
+		name = "Harvey Bright"
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRB/harveybright.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = democratic_republic_1
+			traits = {}
+			expire = "2300.1.1"
+		}
+	}
+}

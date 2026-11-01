@@ -1,0 +1,27 @@
+scripted_gui = {
+    NSTNO_super_event_interface_1 = {
+        window_name = "NSTNO_super_event_window_1"
+        context_type = player_context
+
+        visible = { has_country_flag = NSTNO_super_event_1_flag }
+
+        effects = {
+            Close_Button_click = {
+                clr_country_flag = NSTNO_super_event_1_flag
+            }
+        }
+    }
+
+    NSTNO_super_event_interface_2 = {
+        window_name = "NSTNO_super_event_window_2"
+        context_type = player_context
+
+        visible = { has_country_flag = NSTNO_super_event_2_flag }
+
+        effects = {
+            Close_Button_click = {
+                clr_country_flag = NSTNO_super_event_2_flag
+            }
+        }
+    }
+}

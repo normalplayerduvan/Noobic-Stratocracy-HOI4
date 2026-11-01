@@ -1,0 +1,18 @@
+add_namespace = noobic_republic
+
+country_event = {
+    id = noobic_republic.1
+    title = noobic_republic.1.t
+    desc = noobic_republic.1.d
+    picture = GFX_blm_island_fate
+
+    is_triggered_only = yes
+
+    option = {
+        name = noobic_republic.1.a
+    }
+
+    option = {
+        name = noobic_republic.1.b
+    }
+}
