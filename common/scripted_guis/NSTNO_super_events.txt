@@ -24,4 +24,17 @@ scripted_gui = {
             }
         }
     }
+
+    NSTNO_super_event_interface_3 = {
+        window_name = "NSTNO_super_event_window_3"
+        context_type = player_context
+
+        visible = { has_country_flag = NSTNO_super_event_3_flag }
+
+        effects = {
+            Close_Button_click = {
+                clr_country_flag = NSTNO_super_event_3_flag
+            }
+        }
+    }
 }

@@ -8,6 +8,10 @@ defined_text = {
         trigger = { check_variable = { NSTNO_se_id = 2 } }
         localization_key = NSTNO_SE_2_TITLE
     }
+    text = {
+        trigger = { check_variable = { NSTNO_se_id = 3 } }
+        localization_key = NSTNO_SE_3_TITLE
+    }
 }
 
 defined_text = {
@@ -20,6 +24,10 @@ defined_text = {
         trigger = { check_variable = { NSTNO_se_id = 2 } }
         localization_key = NSTNO_SE_2_SUB
     }
+    text = {
+        trigger = { check_variable = { NSTNO_se_id = 3 } }
+        localization_key = NSTNO_SE_3_SUB
+    }
 }
 
 defined_text = {
@@ -31,5 +39,9 @@ defined_text = {
     text = {
         trigger = { check_variable = { NSTNO_se_id = 2 } }
         localization_key = NSTNO_SE_2_QUOTE
+    }
+    text = {
+        trigger = { check_variable = { NSTNO_se_id = 3 } }
+        localization_key = NSTNO_SE_3_QUOTE
     }
 }

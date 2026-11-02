@@ -7,7 +7,7 @@ focus_tree = {
         id = NRB_start
         icon = GFX_goal_unknown
         x = 10
-        y = 0
+        y = -1
         cost = 10
         ai_will_do = {
             factor = 1
@@ -21,13 +21,149 @@ focus_tree = {
         id = NRB_focus
         icon = GFX_goal_unknown
         x = 10
-        y = 1
+        y = 0
         cost = 10
+        prerequisite = { focus = NRB_start }
         ai_will_do = {
             factor = 1
         }
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus NRB_focus completed"
+        }
+    }
+
+    focus = {
+        id = NRB_military_1
+        icon = GFX_goal_unknown
+        x = 13
+        y = 2
+        cost = 10
+        prerequisite = { focus = NRB_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_military_1 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_political_1
+        icon = GFX_goal_unknown
+        x = 10
+        y = 2
+        cost = 10
+        prerequisite = { focus = NRB_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_political_1 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_economy_1
+        icon = GFX_goal_unknown
+        x = 7
+        y = 2
+        cost = 10
+        prerequisite = { focus = NRB_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_economy_1 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_civillian_eco_1
+        icon = GFX_goal_unknown
+        x = 6
+        y = 3
+        cost = 10
+        prerequisite = { focus = NRB_economy_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_civillian_eco_1 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_focus_1
+        icon = GFX_goal_unknown
+        x = 10
+        y = 6
+        cost = 10
+        prerequisite = { focus = NRB_focus_2 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            event noobic_republic.1
+        }
+    }
+
+    focus = {
+        id = NRB_military_eco_1
+        icon = GFX_goal_unknown
+        x = 8
+        y = 3
+        cost = 10
+        prerequisite = { focus = NRB_economy_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_military_eco_1 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_military_eco_2
+        icon = GFX_goal_unknown
+        x = 8
+        y = 4
+        cost = 10
+        prerequisite = { focus = NRB_military_eco_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_military_eco_2 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_civillian_eco_2
+        icon = GFX_goal_unknown
+        x = 6
+        y = 4
+        cost = 10
+        prerequisite = { focus = NRB_civillian_eco_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_civillian_eco_2 completed"
+        }
+    }
+
+    focus = {
+        id = NRB_focus_2
+        icon = GFX_goal_unknown
+        x = 7
+        y = 5
+        cost = 10
+        prerequisite = { focus = NRB_civillian_eco_2 focus = NRB_military_eco_2 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus NRB_focus_2 completed"
         }
     }
 

@@ -7,4 +7,8 @@
  noobic_republic.1.d: "You may now decide how the Noobic Republic will proceed, choosing the military stratocracy will switch you over to the Noobic stratocracy. Choosing Democratic Reform will continue the Noobic republic but the military will coup you if you cannot keep them happy."
  noobic_republic.1.a: "§RMilitary Stratocracy (CANON)"
  noobic_republic.1.b: "§7Democratic Reform (WIP)"
- 
+ super_events.1.t: "Superevents List"
+ super_events.1.d: "You may now choose which superevent you would like to view."
+ super_events.1.a: "Noobic Reunification War"
+ super_events.1.b: "Noobic Republic in Chaos"
+ super_events.1.c: "Bloxian Invasion of the Noobic Continent"
