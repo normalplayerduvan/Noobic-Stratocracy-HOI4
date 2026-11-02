@@ -86,17 +86,21 @@ focus_tree = {
     }
 
     focus = {
-        id = NSC_doe_1
-        icon = GFX_goal_unknown
-        x = 12
-        y = 1
-        cost = 10
-        ai_will_do = {
-            factor = 1
-        }
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus NSC_focus_5 completed"
-        }
+    id = NSC_doe_1
+    icon = GFX_goal_unknown
+    x = 12
+    y = 1
+    cost = 10
+    ai_will_do = {
+        factor = 1
     }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus NSC_doe_1 completed"
+        518 = {
+            set_state_owner_to = DOE
+        }
+        country_event = { id = noobic_stratocracy.2 }
+    }
+}
 
 }

@@ -9,6 +9,11 @@ spriteTypes = {
         texturefile = "gfx/event_pictures/noobicreunificationwar.dds"
     }
 
+    spriteType = {
+        name = "GFX_NSTNO_super_event_bg_3"
+        texturefile = "gfx/event_pictures/operationhammerdown.dds"
+    }
+
     corneredTileSpriteType = {
         name = "GFX_NSTNO_panel_tint"
         texturefile = "gfx/interface/NSTNO/panel_tint.dds"

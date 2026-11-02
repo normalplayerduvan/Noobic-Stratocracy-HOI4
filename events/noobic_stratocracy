@@ -1,7 +1,7 @@
 add_namespace = noobic_stratocracy
 
 country_event = {
-    id = noobic_stratocracy.1    
+    id = noobic_stratocracy.1
     hidden = yes
     is_triggered_only = yes
 
@@ -25,5 +25,25 @@ country_event = {
             }
             country_event = { id = noobic_choice.10 days = 3 }
         }
+    }
+}
+
+country_event = {
+    id = noobic_stratocracy.2
+    title = noobic_stratocracy.2.t
+    desc = noobic_stratocracy.2.d
+    picture = GFX_blm_island_fate
+
+    is_triggered_only = yes
+
+    option = {
+        name = noobic_stratocracy.2.a
+        DOE = {
+            change_tag_from = ROOT
+        }
+    }
+
+    option = {
+        name = noobic_stratocracy.2.b
     }
 }

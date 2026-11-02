@@ -22,7 +22,9 @@ country_event = {
         }
         
         # 2. Switch the player's active tag to NSC
-        change_tag_from = NSC
+        NSC = {
+            change_tag_from = NRB
+        }
     }
 
     # Option B: Stay as you are (or add alternative logic here)
