@@ -8,10 +8,24 @@ country_event = {
 
     is_triggered_only = yes
 
+    # Option A: Become the Noobic Stratocracy (NSC)
     option = {
         name = noobic_republic.1.a
+        
+        # 1. Target all states currently owned by this country (NRB) and transfer them to NSC
+        every_state = {
+            limit = {
+                is_owned_by = ROOT
+            }
+            transfer_state_to = NSC
+            add_core_of = NSC # Makes them core states for the new country
+        }
+        
+        # 2. Switch the player's active tag to NSC
+        change_tag_from = NSC
     }
 
+    # Option B: Stay as you are (or add alternative logic here)
     option = {
         name = noobic_republic.1.b
     }

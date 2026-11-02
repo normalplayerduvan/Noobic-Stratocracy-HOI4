@@ -93,21 +93,6 @@ focus_tree = {
     }
 
     focus = {
-        id = NRB_end_focus
-        icon = GFX_goal_unknown
-        x = 10
-        y = 6
-        cost = 10
-        prerequisite = { focus = NRB_focus_2 }
-        ai_will_do = {
-            factor = 1
-        }
-        completion_reward = {
-            event noobic_republic.1
-        }
-    }
-
-    focus = {
         id = NRB_military_eco_1
         icon = GFX_goal_unknown
         x = 8
@@ -163,8 +148,22 @@ focus_tree = {
             factor = 1
         }
         completion_reward = {
-            event noobic_republic.2
+            
         }
     }
 
+    focus = {
+    id = NRB_end_1
+    icon = GFX_goal_unknown
+    x = 10
+    y = 6
+    cost = 10
+    prerequisite = { focus = NRB_focus_2 }
+    ai_will_do = {
+        factor = 1
+    }
+    completion_reward = {
+        country_event = { id = noobic_republic.1 }
+    }
+}
 }
