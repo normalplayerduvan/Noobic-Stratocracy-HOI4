@@ -1,0 +1,10 @@
+scripted_gui = {
+    custom_leader_title_gui = {
+        context_type = player_context
+        parent_window_name = countrypoliticsview
+        window_name = "custom_leader_title_container"
+        visible = {
+            always = yes
+        }
+    }
+}

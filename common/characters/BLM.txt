@@ -1,21 +1,5 @@
 characters = {
 
-	abel_artendale = {
-		name = "Abel Artendale"
-
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/BLM/leader_ardentale.dds"
-			}
-		}
-
-		country_leader = {
-			ideology = authortarianism_1
-			traits = { }
-			expire = "1965.1.1"
-		}
-	}
-
 	bloxian_unknown = {
 		name = "Franklin Harigold"
 

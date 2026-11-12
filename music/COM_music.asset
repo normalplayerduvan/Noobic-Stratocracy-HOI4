@@ -1,0 +1,9 @@
+music = {
+    song = "your_event_1_song"
+    chance = {
+        modifier = {
+            add = 10000
+            has_country_flag = NSTNO_super_event_1_flag
+        }
+    }
+}

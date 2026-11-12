@@ -1,0 +1,19 @@
+# file: common/on_actions/00_nstno_on_actions.txt
+
+on_actions = {
+    on_startup = {
+        effect = {
+            # Use 'every_country' to correctly switch scope from None to Country
+            every_country = {
+                limit = { 
+                    is_ai = no 
+                }
+                country_event = { 
+                    id = starter_events.1 
+                    days = 1 
+                }
+            }
+        }
+    }
+}
+

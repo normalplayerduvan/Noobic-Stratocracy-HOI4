@@ -1,0 +1,18 @@
+defined_text = {
+	name = GetLeaderPositionTitle
+	text = {
+		trigger = { tag = NSC }
+		localization_key = NSC_title_leader
+	}
+	text = {
+		trigger = { tag = NRB }
+		localization_key = NRB_title_leader
+	}
+	text = {
+		trigger = { tag = BLM }
+		localization_key = BLM_title_leader
+	}
+	text = {
+		localization_key = DEFAULT_title_leader
+	}
+}

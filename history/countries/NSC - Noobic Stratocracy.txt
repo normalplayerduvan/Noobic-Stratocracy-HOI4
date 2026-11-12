@@ -1,4 +1,4 @@
-capital = 14
+capital = 22
 
 set_research_slots = 3
 
@@ -18,17 +18,17 @@ set_technology = {
 
 set_politics = {
     ruling_party = democratic
-    last_election = "1949.1.1"
+    last_election = "1946.1.1"
     election_frequency = 48
     elections_allowed = yes
 }
 
 set_popularities = {
-    democratic = 0
+    democratic = 100
     fascism = 0
     communism = 0
     neutrality = 0
-    democratic_federal_idg = 100
+    democratic_federal_idg = 0
 }
 
 create_country_leader = {

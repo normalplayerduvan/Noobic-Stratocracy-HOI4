@@ -1,0 +1,15 @@
+add_namespace = starter_events
+
+country_event = {
+    id = starter_events.1
+    title = starter_events.1.t
+    desc = starter_events.1.d
+    picture = GFX_blm_island_fate
+
+    is_triggered_only = yes
+
+    option = {
+        name = starter_events.1.a
+        set_country_flag = NSTNO_starter_event_1_flag
+    }
+}

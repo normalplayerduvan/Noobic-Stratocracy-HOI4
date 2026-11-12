@@ -1,3 +1,6 @@
 ﻿l_english:
- LEADER_TITLE_BLC:0 "Governor | $NAME"
- LEADER_TITLE_DEFAULT:0 "Head of State"
+ NSC_title_leader:0 "Head of State"
+ NRB_title_leader:0 "Head of State"
+ BLM_title_leader:0 "Governor"
+ DEFAULT_title_leader:0 "Head of State"
+ LEADER_TITLE_GUI:0 "[Root.GetLeaderPositionTitle]"

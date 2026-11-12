@@ -23,3 +23,8 @@ NRB = {
     color = rgb { 222 212 79 }
     color_ui = rgb { 222 212 79 }
 }
+
+BLC = {
+    color = rgb { 50 100 168 }
+    color_ui = rgb { 50 100 168 }
+}

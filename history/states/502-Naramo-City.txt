@@ -1,0 +1,32 @@
+state = {
+	id = 502
+	name = "Naramo City"
+	provinces = {
+		2670 8538 511 8645 8654 582
+	}
+	manpower = 51625
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	
+	resources = {
+		steel = 10
+		oil = 8
+		chromium = 5
+	}
+	
+	history = {
+		owner = BLM
+		add_core_of = BLM
+		victory_points = {
+			2670 15
+		}
+		1949.1.1 = {
+			owner = NRB
+			add_core_of = NRB
+		}
+		1951.1.1 = {
+			owner = NSC
+			add_core_of = NSC
+		}
+	}
+}

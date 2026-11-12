@@ -1,0 +1,11 @@
+music_station = "nstno_station"
+
+music = {
+    song = "bloxian_invasion_noobic"
+    chance = {
+        modifier = {
+            add = 10000
+            has_country_flag = NSTNO_super_event_3_flag
+        }
+    }
+}

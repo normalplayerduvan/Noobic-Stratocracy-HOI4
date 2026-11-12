@@ -1,0 +1,19 @@
+nstno_ns_economy_decision_category = {
+    icon = generic_economy
+
+    allowed = {
+        original_tag = NSC
+    }
+
+    visible = { always = yes }
+}
+
+nstno_bloxian_war_operations_category = {
+    icon = generic_political_actions
+
+    allowed = {
+        original_tag = BLC
+    }
+
+    visible = { always = yes }
+}

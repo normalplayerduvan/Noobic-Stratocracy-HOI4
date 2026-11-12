@@ -9,12 +9,6 @@ bookmarks = {
 		
 		"BLM"={
 			history = "BLM_DESC"
-			ideas={
-				noobic_resistance
-				disorganised_military
-				decade_war_fears
-				underground_resistance+
-			}
 		}
 		"NSC"={
 			history = "NSC_DESC"

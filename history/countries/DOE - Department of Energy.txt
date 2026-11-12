@@ -18,7 +18,7 @@ set_technology = {
 
 set_politics = {
     ruling_party = democratic_federal_idg
-    last_election = "1950.1.1"
+    last_election = "1946.1.1"
     election_frequency = 48
     elections_allowed = no
 }
@@ -27,11 +27,11 @@ set_politics = {
 recruit_character = department_of_energy
 
 set_popularities = {
-    democratic = 100
+    democratic = 0
     fascism = 0
     communism = 0
     neutrality = 0
-    democratic_federal_idg = 0
+    democratic_federal_idg = 100
 }
 
 # No OOB generated

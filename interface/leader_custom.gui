@@ -1,0 +1,26 @@
+guiTypes = {
+	containerWindowType = {
+		name = "custom_leader_title_container"
+		position = { x = 14 y = 17 }
+		size = { width = 162 height = 34 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+
+		instantTextBoxType = {
+			name = "leader_position_title"
+			position = { x = 6 y = 6 }
+			font = "hoi_18mbs"
+			text = "[GetLeaderPositionTitle]"
+			pdx_tooltip = "LEADER_POSITION_TOOLTIP"
+			pdx_tooltip_delayed = "LEADER_POSITION_TOOLTIP_DELAYED"
+			maxWidth = 150
+			maxHeight = 22
+			format = center
+			vertical_alignment = center
+			fixedsize = yes
+		}
+	}
+}

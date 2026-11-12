@@ -16,3 +16,6 @@
  super_events.1.a: "Noobic Reunification War"
  super_events.1.b: "Noobic Republic in Chaos"
  super_events.1.c: "Bloxian Invasion of the Noobic Continent"
+ starter_events.1.t: "Welcome to NSTNO!"
+ starter_events.1.d: "NSTNO is currently in development, and does not have all of the content and features it needs currently. So please be patient, any bugs or issues you may find can be reported to the NSTNO discord server, You may now play. Thanks for playing! - Made by Normal Player"
+ starter_events.1.a: "Continue"
